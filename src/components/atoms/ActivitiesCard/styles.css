@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.activityCard:hover .activityCardContent {
+  transition: 0.3s;
+  @apply opacity-100;
+}
+
+.activityCard:hover .img1 {
+  transition: 0.3s;
+  @apply scale-110;
+}

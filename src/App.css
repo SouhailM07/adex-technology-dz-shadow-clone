@@ -10,8 +10,13 @@ html {
   @apply text-[20px];
 }
 
+.cc {
+  @apply max-w-[59rem] mx-auto px-[1rem];
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  @apply text-white bg-mainBg;
 }
 
 .b {

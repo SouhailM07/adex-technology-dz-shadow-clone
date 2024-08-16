@@ -1,8 +1,8 @@
 import { aboutCards } from "../../../types";
 import AboutCard from "../../atoms/AboutCard/AboutCard";
 import aboutImg1 from "/Technology.jpg";
-import aboutImg2 from "../../../../public/Expertise.jpg";
-import aboutImg3 from "../../../../public/Partenaire.jpg";
+import aboutImg2 from "/Expertise.jpg";
+import aboutImg3 from "/Partenaire.jpg";
 import { ReactArr } from "react-array";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
 

@@ -8,7 +8,7 @@ const AboutCard = ({
   txt,
 }: aboutCards) => {
   return (
-    <article dir={direction} className="flex items-start b gap-x-[3rem] ">
+    <article dir={direction} className="flex items-start  gap-x-[3rem] ">
       <img className="w-[75%] rounded-2xl" src={img} alt="img" loading="lazy" />
       <div>
         <h1 className="text-mainRed text-[1.3rem]">{headLine}</h1>

@@ -2,7 +2,11 @@ import heroBg from "/hero_bg.png";
 export default function Hero() {
   return (
     <section className="flexCenter">
-      <img src={heroBg} alt="img" />
+      <img
+        src={heroBg}
+        alt="img"
+        className="w-full h-full object-cover object-center"
+      />
       <article className="absolute z-[3] text-center">
         <h1 className="text-[7rem] font-medium">
           ADEX <br /> <span className="italic font-thin">Techonology</span>

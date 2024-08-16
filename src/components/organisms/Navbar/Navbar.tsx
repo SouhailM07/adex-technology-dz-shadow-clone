@@ -22,7 +22,7 @@ export default function Navbar() {
           <ReactArr
             arr={links}
             Component={(e: navLinks) => (
-              <a href={`#${e.link}`} className="capitalize hover:font-medium ">
+              <a href={`#${e.link}`} className="capitalize navLink">
                 {e.label}
               </a>
             )}

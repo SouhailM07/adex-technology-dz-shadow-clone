@@ -16,7 +16,7 @@ export default function ActivitiesCard({
         alt="img"
         className="img1 rounded-lg  w-[18rem] aspect-[9/13] "
       />
-      <section className="bg-[#000000CC] activityCardContent z-[1] absolute items-center flex opacity-0 py-[1.3rem] w-[16rem] aspect-[8/12]  flex-col justify-between text-center">
+      <section className="bg-[#000000CC] activityCardContent z-[1] absolute items-center flex hover-effect opacity-0 py-[1.3rem] w-[16rem] aspect-[8/12]  flex-col justify-between text-center">
         <img src={cardLogo} alt="logo" className="w-[8rem] aspect-auto" />
         <div className=" min-h-[14rem] gap-y-[1rem]  flex flex-col justify-between items-center">
           <h1 className="text-[1.7rem]">{title}</h1>

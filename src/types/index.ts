@@ -23,3 +23,10 @@ export interface activitiesCards {
   lists: string[];
   link: string;
 }
+
+export interface inputs_t {
+  form?: any;
+  name: string;
+  formType?: "input" | "textarea";
+  placeholder: string;
+}

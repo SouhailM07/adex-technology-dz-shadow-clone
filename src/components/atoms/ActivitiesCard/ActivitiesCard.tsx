@@ -10,16 +10,20 @@ export default function ActivitiesCard({
   link,
 }: activitiesCards) {
   return (
-    <article className="activityCard overflow-hidden rounded-md md:w-[17rem] lg:w-[18rem] aspect-[9/13] flexCenter ">
+    <article className="activityCard overflow-hidden rounded-md w-[80vw] md:w-[17rem] max-md:h-[22rem] lg:w-[18rem] md:aspect-[9/13] flexCenter">
       <img
         src={cardImg}
         alt="img"
-        className="img1 rounded-lg  md:w-[17rem] lg:w-[18rem] aspect-[9/13] "
+        className="img1 rounded-lg  md:w-[17rem] lg:w-[18rem] w-full max-md:h-full  md:aspect-[9/13] "
       />
-      <section className="bg-[#000000CC] activityCardContent z-[1] absolute items-center flex hover-effect opacity-0 py-[1.3rem] w-[16rem] aspect-[8/12]  flex-col justify-between text-center">
-        <img src={cardLogo} alt="logo" className="w-[8rem] aspect-auto" />
+      <section className="bg-[#000000CC] activityCardContent z-[1] absolute items-center flex hover-effect opacity-0 py-[1.3rem] md:w-[15rem] lg:w-[16rem] max-md:w-[75vw] max-md:h-[20rem] aspect-[8/12]  flex-col justify-between text-center">
+        <img
+          src={cardLogo}
+          alt="logo"
+          className="w-[8rem] max-md:w-[6rem] aspect-auto"
+        />
         <div className=" min-h-[14rem] gap-y-[1rem]  flex flex-col justify-between items-center">
-          <h1 className="text-[1.7rem]">{title}</h1>
+          <h1 className="text-[1.7rem] max-md:text-[1.4rem]">{title}</h1>
           <ul
             role="list"
             className="space-y-[0.3rem] list-disc text-start pl-5 "

@@ -29,7 +29,7 @@ export default function About() {
     },
   ];
   return (
-    <section className="py-[4rem] cc">
+    <section id="about" className="py-[4rem] cc">
       <HeadTitle
         customStyles="max-md:w-full"
         title="Qui sommes-nous ?"

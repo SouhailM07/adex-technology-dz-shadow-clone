@@ -4,7 +4,10 @@ import ContactForm from "../../molecules/ContactForm/ContactForm";
 
 export default function Contact() {
   return (
-    <section className="mt-[7rem] cc space-y-[3rem] max-lg:max-w-[40rem]">
+    <section
+      id="contact"
+      className="mt-[7rem] cc space-y-[3rem] max-lg:max-w-[40rem]"
+    >
       <HeadTitle
         customStyles="w-full md:max-w-[35rem]"
         title="Contactez-nous"

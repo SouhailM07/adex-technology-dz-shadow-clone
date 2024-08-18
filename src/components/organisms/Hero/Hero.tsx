@@ -1,7 +1,7 @@
 import heroBg from "/hero_bg.png";
 export default function Hero() {
   return (
-    <section className="flexCenter h-[31rem] ">
+    <section id="main" className="flexCenter h-[31rem] ">
       <img
         src={heroBg}
         alt="img"

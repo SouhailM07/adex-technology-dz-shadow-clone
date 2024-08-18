@@ -11,7 +11,7 @@ export default function Aside() {
     { img: aside_img_3, link: "https://adexcloud.dz/" },
   ];
   return (
-    <aside className="  w-1 h-screen flex justify-center flex-col fixed">
+    <aside className="  w-1 h-screen flex justify-center flex-col fixed max-sm:hidden">
       <ul className="space-y-[1.5rem] translate-y-[4rem]">
         <ReactArr
           arr={asideLinks}

@@ -11,14 +11,14 @@ export default function MainTemplate() {
   return (
     <>
       <Navbar />
-      {/* <Aside /> */}
-      {/* <main> */}
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Activities /> */}
-      {/* <R_D /> */}
-      {/* <Contact /> */}
-      {/* </main> */}
+      <Aside />
+      <main>
+        <Hero />
+        <About />
+        {/* <Activities /> */}
+        {/* <R_D /> */}
+        {/* <Contact /> */}
+      </main>
       {/* <Footer /> */}
     </>
   );

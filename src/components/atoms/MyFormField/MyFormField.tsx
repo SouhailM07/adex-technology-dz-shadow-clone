@@ -22,7 +22,7 @@ export default function MyFormField({
                 <Input placeholder={placeholder} {...field} />
               ) : formType == "textarea" ? (
                 <Textarea
-                  className="h-full"
+                  className="h-full max-md:min-h-[12rem]"
                   placeholder={placeholder}
                   {...field}
                 />

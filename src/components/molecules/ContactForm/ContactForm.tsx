@@ -44,7 +44,7 @@ export default function ContactForm() {
     <section className="h-full ">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-          <ul className="text-black grid-cols-2 grid-rows-[1fr_1fr_4fr] grid gap-[1rem] h-[20rem]">
+          <ul className="text-black max-md:grid-cols-1 grid-cols-2 md:grid-rows-[1fr_1fr_4fr] grid gap-[1rem] lg:h-[20rem]">
             {inputs.map((e, i) => (
               <li key={i}>
                 <MyFormField form={form} {...e} />
@@ -61,7 +61,7 @@ export default function ContactForm() {
           </ul>
           <Button
             type="submit"
-            className="bg-mainRed flexCenter w-[13rem] h-[4rem] hover:bg-red-500 rounded-lg"
+            className="bg-mainRed flexCenter w-[13rem] max-md:h-[3rem] max-md:w-full h-[4rem] hover:bg-red-500 rounded-lg"
           >
             Envoyer
           </Button>

@@ -17,7 +17,7 @@ export default function MainTemplate() {
         <About />
         {/* <Activities /> */}
         <R_D />
-        {/* <Contact /> */}
+        <Contact />
       </main>
       {/* <Footer /> */}
     </>

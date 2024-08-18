@@ -24,7 +24,7 @@ export default function Navbar() {
           alt="img"
           width={210}
           height={210}
-          className="translate-y-[0.6rem]"
+          className="translate-y-[0.6rem] h-[3rem] aspect-auto"
         />
         <FontAwesomeIcon
           icon={faBars}

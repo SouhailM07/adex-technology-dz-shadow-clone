@@ -19,7 +19,7 @@ export default function MainTemplate() {
         <R_D />
         <Contact />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

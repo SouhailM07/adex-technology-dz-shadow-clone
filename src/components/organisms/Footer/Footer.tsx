@@ -24,18 +24,18 @@ export default function Footer() {
   const socialLinks = [faFacebookF, faTwitter, faLinkedinIn];
   return (
     <footer className="bg-black mt-[10rem] py-[4rem] ">
-      <section className="cc space-y-[3rem]">
-        <article className="flex justify-between gap-x-[1rem]">
-          <section className="w-[24rem] space-y-[1.5rem]">
+      <section className="cc space-y-[3rem] max-lg:max-w-[30rem]">
+        <article className="flex justify-between gap-x-[1rem] gap-y-[2rem] max-lg:flex-col ">
+          <section className="w-[24rem] max-sm:w-full  space-y-[1.5rem] ">
             <h1>À propos</h1>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] max-md:text-[1rem]">
               Crée en 2009, SARL ADEX Technology est spécialiste dans les
               technologies de l’information & de la communication à valeur
               ajoutée. Enregistrée sous le numéro de registre de commerce
               16/00-0980677 B09. ​
             </p>
           </section>
-          <section className="flex justify-between w-full  pl-[2rem]">
+          <section className="gap-y-[1rem] flex justify-between w-full  lg:pl-[2rem] gap-x-[3rem] max-lg:flex-col ">
             <article className="space-y-[1.5rem]">
               <h1>Liens utiles</h1>
               <ul className="space-y-[1rem]">
@@ -49,7 +49,7 @@ export default function Footer() {
                 />
               </ul>
             </article>
-            <article className="w-[25rem] h-[14rem] flex flex-col justify-between">
+            <article className="w-[25rem] max-sm:w-full h-[14rem] flex flex-col justify-between">
               <div className="space-y-[1.5rem]">
                 <h1>S'abonner à nos newsletters</h1>
                 <FooterForm />

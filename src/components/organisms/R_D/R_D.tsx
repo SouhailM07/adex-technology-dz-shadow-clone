@@ -12,18 +12,18 @@ export default function R_D() {
     "Data Center mobile",
   ];
   return (
-    <section className="mt-[7rem] cc space-y-[3rem]">
+    <section className="mt-[7rem] max-md:max-w-[25rem] cc space-y-[3rem]">
       <HeadTitle
-        customStyles="w-[37rem]"
+        customStyles="lg:w-[37rem] max-lg:w-[35rem] max-md:w-full"
         title="Une conception pour l'avenir"
         subTitle="L’innovation par la R&D​"
         middleImg={rdImg}
         txt="L'innovation technologique est le moteur de la transformation numérique des entreprises. En perpétuel évolution l’innovation se fait par le R&D, qui un élément clé de la créativité pour assurer le développement des entreprises :​"
       />
-      <ul className="mx-auto w-[30rem] text-[1.2rem]  grid grid-cols-2 place-items-center  gap-y-[1rem]">
+      <ul className="mx-auto max-md:w-full max-md:grid-cols-1 w-[30rem] text-[1.2rem]  grid grid-cols-2 md:place-items-center  gap-y-[1rem]">
         <ReactArr
           arr={items}
-          className="flex w-[10rem] items-center gap-x-3 "
+          className="flex md:w-[10rem]  items-center gap-x-3 "
           Component={(e) => <RenderItem {...e} />}
         />
       </ul>

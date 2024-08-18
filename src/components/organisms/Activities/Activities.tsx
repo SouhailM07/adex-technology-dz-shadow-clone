@@ -52,13 +52,13 @@ export default function Activities() {
     },
   ];
   return (
-    <section className=" cc space-y-[4rem]">
+    <section className=" cc space-y-[4rem] b">
       <HeadTitle
         title="Les pôles d’activité d’ADEX Technology​"
         subTitle="L’IT c’est notre métier."
         txt={`Pour mieux servir ses clients et répondre à leurs différents besoins et problématiques, ADEX Technology a développé 3 pôles d’activités :`}
       />
-      <ul className="flexBetween  ">
+      <ul className="flex items-center  flex-wrap gap-y-[2rem] justify-center gap-x-[1.3rem]">
         <ReactArr
           arr={activitiesCards}
           Component={(e: activitiesCards) => <ActivitiesCard {...e} />}

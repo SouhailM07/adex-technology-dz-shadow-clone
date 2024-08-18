@@ -10,11 +10,11 @@ export default function ActivitiesCard({
   link,
 }: activitiesCards) {
   return (
-    <article className="activityCard overflow-hidden rounded-md w-[18rem] aspect-[9/13] flexCenter ">
+    <article className="activityCard overflow-hidden rounded-md md:w-[17rem] lg:w-[18rem] aspect-[9/13] flexCenter ">
       <img
         src={cardImg}
         alt="img"
-        className="img1 rounded-lg  w-[18rem] aspect-[9/13] "
+        className="img1 rounded-lg  md:w-[17rem] lg:w-[18rem] aspect-[9/13] "
       />
       <section className="bg-[#000000CC] activityCardContent z-[1] absolute items-center flex hover-effect opacity-0 py-[1.3rem] w-[16rem] aspect-[8/12]  flex-col justify-between text-center">
         <img src={cardLogo} alt="logo" className="w-[8rem] aspect-auto" />

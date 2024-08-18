@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { navLinks } from "../../../types";
-import logo from "/logo.png";
+import logo from "/logo.webp";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -19,6 +19,7 @@ export default function Navbar() {
     <header className="bg-[#000000c7] fixed w-full z-[99]">
       <nav className="flex justify-between items-end max-lg:items-center max-lg:w-[80%] max-sm:w-[90%] max-lg:px-[1rem]  w-[49rem]  mx-auto">
         <img
+          loading="eager"
           src={logo}
           alt="img"
           width={210}

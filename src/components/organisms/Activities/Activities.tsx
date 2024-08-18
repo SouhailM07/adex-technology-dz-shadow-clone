@@ -1,11 +1,11 @@
 import ActivitiesCard from "../../atoms/ActivitiesCard/ActivitiesCard";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
-import card1 from "/card_1.jpg";
-import card2 from "/card_2.jpg";
-import card3 from "/card_3.jpg";
-import logo1 from "/aside_logo_1.png";
-import logo2 from "/aside_logo_2.png";
-import logo3 from "/aside_logo_3.png";
+import card1 from "/card_1.webp";
+import card2 from "/card_2.webp";
+import card3 from "/card_3.webp";
+import logo1 from "/aside_logo_1.webp";
+import logo2 from "/aside_logo_2.webp";
+import logo3 from "/aside_logo_3.webp";
 import { activitiesCards } from "../../../types";
 import ReactArr from "../../atoms/ReactArr/ReactArr";
 

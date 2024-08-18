@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import rdImg from "/R_D.jpg";
+import rdImg from "/R_D.webp";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
 import ReactArr from "../../atoms/ReactArr/ReactArr";

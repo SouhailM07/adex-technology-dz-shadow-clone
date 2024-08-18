@@ -1,8 +1,8 @@
 import { asideLinks } from "../../../types";
 import ReactArr from "../../atoms/ReactArr/ReactArr";
-import aside_img_1 from "/aside_logo_1.png";
-import aside_img_2 from "/aside_logo_2.png";
-import aside_img_3 from "/aside_logo_3.png";
+import aside_img_1 from "/aside_logo_1.webp";
+import aside_img_2 from "/aside_logo_2.webp";
+import aside_img_3 from "/aside_logo_3.webp";
 
 export default function Aside() {
   const asideLinks: asideLinks[] = [
@@ -21,7 +21,12 @@ export default function Aside() {
               href={e.link}
               className="min-w-[5rem] duration-300 transition-all hover:min-w-[8rem] h-[2.5rem] flex items-center justify-end bg-[#73262f] hover:bg-mainRed rounded-r-md"
             >
-              <img src={e.img} alt="img" className="w-[5rem] p-3" />
+              <img
+                loading="eager"
+                src={e.img}
+                alt="img"
+                className="w-[5rem] p-3"
+              />
             </a>
           )}
         />

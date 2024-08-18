@@ -20,6 +20,7 @@ export default function HeadTitle({
       {middleImg && (
         <img
           className="mx-auto mb-[2rem] rounded-lg"
+          loading="lazy"
           src={middleImg}
           alt="img"
         />

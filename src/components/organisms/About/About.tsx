@@ -1,8 +1,8 @@
 import { aboutCards } from "../../../types";
 import AboutCard from "../../atoms/AboutCard/AboutCard";
-import aboutImg1 from "/Technology.jpg";
-import aboutImg2 from "/Expertise.jpg";
-import aboutImg3 from "/Partenaire.jpg";
+import aboutImg1 from "/Technology.webp";
+import aboutImg2 from "/Expertise.webp";
+import aboutImg3 from "/Partenaire.webp";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
 import ReactArr from "../../atoms/ReactArr/ReactArr";
 

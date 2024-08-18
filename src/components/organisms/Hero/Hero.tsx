@@ -1,8 +1,9 @@
-import heroBg from "/hero_bg.png";
+import heroBg from "/hero_bg.webp";
 export default function Hero() {
   return (
-    <section id="main" className="flexCenter h-[31rem] ">
+    <section id="main" className="flexCenter h-screen ">
       <img
+        loading="eager"
         src={heroBg}
         alt="img"
         className="w-full h-full object-cover object-center"

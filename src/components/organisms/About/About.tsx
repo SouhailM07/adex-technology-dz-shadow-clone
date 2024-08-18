@@ -3,8 +3,8 @@ import AboutCard from "../../atoms/AboutCard/AboutCard";
 import aboutImg1 from "/Technology.jpg";
 import aboutImg2 from "/Expertise.jpg";
 import aboutImg3 from "/Partenaire.jpg";
-import { ReactArr } from "react-array";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 
 export default function About() {
   const aboutCards: aboutCards[] = [

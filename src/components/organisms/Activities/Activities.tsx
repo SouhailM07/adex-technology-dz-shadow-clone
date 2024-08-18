@@ -7,7 +7,7 @@ import logo1 from "/aside_logo_1.png";
 import logo2 from "/aside_logo_2.png";
 import logo3 from "/aside_logo_3.png";
 import { activitiesCards } from "../../../types";
-import { ReactArr } from "react-array";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 
 export default function Activities() {
   let activitiesCards: activitiesCards[] = [

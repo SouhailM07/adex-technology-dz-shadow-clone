@@ -1,6 +1,6 @@
 import "./styles.css";
-import { ReactArr } from "react-array";
 import { activitiesCards } from "../../../types";
+import ReactArr from "../ReactArr/ReactArr";
 
 export default function ActivitiesCard({
   cardImg,

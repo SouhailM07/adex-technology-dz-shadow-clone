@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { navLinks } from "../../../types";
 import logo from "/logo.png";
-import { ReactArr } from "react-array";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 
 export default function Navbar() {
   const links: navLinks[] = [

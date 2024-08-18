@@ -1,8 +1,8 @@
 import { asideLinks } from "../../../types";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 import aside_img_1 from "/aside_logo_1.png";
 import aside_img_2 from "/aside_logo_2.png";
 import aside_img_3 from "/aside_logo_3.png";
-import { ReactArr } from "react-array";
 
 export default function Aside() {
   const asideLinks: asideLinks[] = [

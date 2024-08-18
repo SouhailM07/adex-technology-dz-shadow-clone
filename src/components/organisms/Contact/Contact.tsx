@@ -1,5 +1,5 @@
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
-import { ReactArr } from "react-array";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 import ContactForm from "../../molecules/ContactForm/ContactForm";
 
 export default function Contact() {

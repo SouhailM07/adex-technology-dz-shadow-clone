@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import rdImg from "/R_D.jpg";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { ReactArr } from "react-array";
 import HeadTitle from "../../atoms/HeadTitle/HeadTitle";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 
 export default function R_D() {
   const items: string[] = [

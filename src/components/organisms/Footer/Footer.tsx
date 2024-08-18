@@ -1,4 +1,3 @@
-import { ReactArr } from "react-array";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -18,6 +17,7 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ReactArr from "../../atoms/ReactArr/ReactArr";
 
 export default function Footer() {
   let arr: string[] = ["Accueil", "Nos Pôles", "À Propos", "Contact"];

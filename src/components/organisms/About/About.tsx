@@ -31,6 +31,7 @@ export default function About() {
   return (
     <section className="py-[4rem] cc">
       <HeadTitle
+        customStyles="max-md:w-full"
         title="Qui sommes-nous ?"
         subTitle="Un accélérateur de performance par la technologie !"
         txt={`ADEX Technology, “ALGERIAN DEVELOPEMENT EXPERTISE TECHNOLGY IT”, est un
@@ -40,7 +41,7 @@ export default function About() {
     plus de 12 ans, il est aussi l’un des leaders en matière de solutions
     informatiques et le Premier Intégrateur du Cloud en Algérie.​`}
       />
-      <ul className="space-y-[10rem] mt-[10rem]">
+      <ul className="max-sm:space-y-[7rem] space-y-[10rem] mt-[10rem]">
         <ReactArr
           arr={aboutCards}
           Component={(e: aboutCards) => <AboutCard {...e} />}
